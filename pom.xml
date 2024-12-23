@@ -16,6 +16,7 @@
     <modules>
         <module>replay</module>
         <module>sender</module>
+        <module>runtime-consumer</module>
     </modules>
 	
 	<build>
