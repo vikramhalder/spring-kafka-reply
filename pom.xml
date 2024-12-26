@@ -15,6 +15,7 @@
 
     <modules>
         <module>replay-topic</module>
+        <module>runtime-consumer</module>
     </modules>
 	
 	<build>

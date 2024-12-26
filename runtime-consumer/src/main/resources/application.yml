@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: consumer-scaling
+  kafka:
+    bootstrap-servers: 'localhost:19092'
+    consumer.group-id: 'root-kafka-group'
+    topics-create-consumer: 'topics-create-consumer'
+    topics-remove-consumer: 'topics-remove-consumer'
