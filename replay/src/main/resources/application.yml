@@ -1,8 +1,0 @@
-server:
-  port: 8081
-
-spring:
-  kafka:
-    bootstrap-servers: localhost:19092
-    send-topics: topics-sender
-    consumer-group: kafka-group

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:19092
+    consumer:
+      group-id: kafka-group
+      auto-offset-reset: earliest
+    topics:
+      send: topics-sender
+      reply: topics-replay

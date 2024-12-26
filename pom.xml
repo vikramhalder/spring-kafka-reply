@@ -14,8 +14,7 @@
     </properties>
 
     <modules>
-        <module>replay</module>
-        <module>sender</module>
+        <module>replay-topic</module>
     </modules>
 	
 	<build>
@@ -33,6 +32,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	  
 
 </project>
